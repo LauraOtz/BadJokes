@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import App from 'App.css'
+import './App.css'
 
 import axios from 'axios';
 
@@ -18,18 +18,18 @@ const Joke = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-           <h1>Bad Jokes⚡</h1>
+           <h1>Bad Jokes <i class="fa-solid fa-face-grin-tongue-wink fa-shake"></i></h1>
 
 
 
 
                    {joke.map((j, index) => (
-                     <div className="data" key={index}>
+                     <div className="data mt-3" key={index}>
                          {j}
                         </div>
                     ))}
 
-                    <button className='btn' onClick={fetchData}>Load jokes</button>
+                    <button className='btn mt-3' onClick={fetchData}>Laugh again</button>
 
 
             </div>

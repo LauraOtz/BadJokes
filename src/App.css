@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima:wght@100;300;500&family=Lato:ital@1&family=Open+Sans&display=swap');
 
 .container {
   background-color: white;
@@ -12,8 +12,9 @@
 
 h1 {
   margin: 0;
-  opacity: 0.5;
+  
   letter-spacing: 2px;
+  color: rgb(20, 2, 83);
 }
 
 .joke {
@@ -22,6 +23,12 @@ h1 {
   line-height: 40px;
   margin: 50px auto;
   max-width: 600px;
+}
+.data {
+  font-family: 'Arima';
+  color: black;
+
+
 }
 
 .btn {
