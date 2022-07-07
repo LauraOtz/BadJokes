@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './App.css'
-
 import axios from 'axios';
 
 const Joke = () => {
@@ -18,7 +17,7 @@ const Joke = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-           <h1>Bad Jokes <i class="fa-solid fa-face-grin-tongue-wink fa-shake"></i></h1>
+           <h1>Bad Jokes 🕶</h1>
 
 
 
